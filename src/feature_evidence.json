@@ -1,0 +1,60 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-hero-section-main-heading-text-to-remove-the-word-complete-so-the-headline-reads-exactly-welding-metal-fabrication-solutions",
+      "featureTitle": "Update the Hero section main heading text to remove the word \"Complete\" so the headline reads exactly: \"Welding & Metal Fabrication Solutions\".",
+      "files": [
+        "frontend/src/components/sections/HeroSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-13"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-change-the-logo-presentation-to-use-a-circular-frame-not-square-anywhere-the-logo-is-shown-in-the-header-navigation-and-the-hero-branding-area",
+      "featureTitle": "Change the logo presentation to use a circular frame (not square) anywhere the logo is shown in the header/navigation and the hero branding area.",
+      "files": [
+        "frontend/src/components/TopNav.tsx",
+        "frontend/src/components/sections/HeroSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-14"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-home-hero-background-to-use-a-modern-welding-themed-background-image-visual-while-keeping-text-readable-ensure-adequate-contrast-for-the-hero-heading-subheading-and-buttons-add-the-background-image-as-a-local-static-asset-and-reference-it-from-the-hero-section-no-remote-image-hotlinking",
+      "featureTitle": "Update the Home/Hero background to use a modern welding-themed background image/visual while keeping text readable (ensure adequate contrast for the hero heading, subheading, and buttons). Add the background image as a local static asset and reference it from the hero section (no remote image hotlinking).",
+      "files": [
+        "frontend/src/components/sections/HeroSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-15"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,2 +1,3 @@
-# sk-welding-works
-Exported from Caffeine project: SK Welding Works
+## 
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`

@@ -1,0 +1,84 @@
+{
+  "kind": "build_request",
+  "title": "Update hero heading text, circular logo framing, and modern welding hero background",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-13",
+      "text": "Update the Hero section main heading text to remove the word \"Complete\" so the headline reads exactly: \"Welding & Metal Fabrication Solutions\".",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "from main heading \"complte welding & solutions\" remove 'Complete'"
+        ]
+      },
+      "acceptanceCriteria": [
+        "HeroSection no longer displays the word \"Complete\" in the main headline.",
+        "The main hero headline text renders exactly as: \"Welding & Metal Fabrication Solutions\"."
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "text": "Change the logo presentation to use a circular frame (not square) anywhere the logo is shown in the header/navigation and the hero branding area.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "and logo frame should be circle type instead of square"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The logo in the top navigation renders as a circle (e.g., with a circular mask/frame) on desktop and mobile.",
+        "The logo in the hero section renders as a circle (e.g., with a circular mask/frame).",
+        "No other layout regressions occur in the top navigation or hero section after the logo shape change."
+      ]
+    },
+    {
+      "id": "REQ-15",
+      "text": "Update the Home/Hero background to use a modern welding-themed background image/visual while keeping text readable (ensure adequate contrast for the hero heading, subheading, and buttons). Add the background image as a local static asset and reference it from the hero section (no remote image hotlinking).",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "background of home looking modern welding"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The Hero/Home section background includes a modern welding-themed image/visual.",
+        "Hero text and CTAs remain clearly readable over the background across common breakpoints (mobile, tablet, desktop).",
+        "The background image is served from local static assets (not a remote URL)."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not edit any files under frontend/src/components/ui or any paths listed in frontend.immutablePaths.",
+    "Keep the backend single-actor architecture unchanged; no backend changes are required for this request."
+  ],
+  "nonGoals": [
+    "Do not change the contact form flow or inquiry submission behavior.",
+    "Do not change business contact configuration values (phone/WhatsApp/email/address) as part of this edit."
+  ],
+  "imageRequirements": {
+    "required": [
+      "Modern welding workshop background with sparks and equipment, dark industrial tone (hero-welding-modern-bg.dim_1920x1080.png)"
+    ],
+    "edits": []
+  },
+  "userProfileUpdate": {
+    "goalsToAdd": [],
+    "goalsToRemove": [],
+    "preferencesToAdd": [],
+    "preferencesToRemove": [],
+    "miscToAdd": [],
+    "miscToRemove": [],
+    "fieldsToSet": {},
+    "fieldsToDelete": []
+  }
+}

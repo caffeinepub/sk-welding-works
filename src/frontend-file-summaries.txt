@@ -1,0 +1,17 @@
+{
+  "frontend/src/App.tsx": "Main application component that sets up providers (QueryClient, InternetIdentity, Theme) and renders all page sections with navigation, floating WhatsApp button, and toast notifications.",
+  "frontend/src/config/business.ts": "Centralized configuration file containing all business contact information, working hours, and social media links used throughout the application.",
+  "frontend/src/hooks/useQueries.ts": "React Query hook for submitting inquiry forms to the backend, handling mutations and cache invalidation.",
+  "frontend/src/components/TopNav.tsx": "Responsive navigation bar with circular logo (rounded-full with ring), smooth-scrolling anchor links, mobile menu, and call-to-action button that becomes sticky on scroll.",
+  "frontend/src/components/sections/HeroSection.tsx": "Hero section with modern welding background image, circular logo with ring styling, updated headline \"Welding & Metal Fabrication Solutions\" (without \"Complete\"), dark overlay for text readability, and statistics grid.",
+  "frontend/src/components/sections/AboutSection.tsx": "About section displaying company description with three feature cards highlighting expertise, safety, and trust.",
+  "frontend/src/components/sections/ServicesSection.tsx": "Services section with six responsive cards displaying welding and fabrication services with icons and detailed descriptions.",
+  "frontend/src/components/sections/WhyChooseUsSection.tsx": "Section listing six key reasons to choose the business with checkmark icons in a responsive grid layout.",
+  "frontend/src/components/sections/GallerySection.tsx": "Responsive gallery grid displaying five project images with hover effects and modal dialog for full-size viewing.",
+  "frontend/src/components/sections/ContactSection.tsx": "Contact section with business information cards and inquiry form with validation, integrated with backend submission.",
+  "frontend/src/components/sections/FooterSection.tsx": "Footer with business branding, quick navigation links, working hours, social media icons, and attribution.",
+  "frontend/src/components/FloatingWhatsAppButton.tsx": "Fixed floating action button linking to WhatsApp with tooltip, positioned in bottom-right corner.",
+  "frontend/src/index.css": "Global styles with industrial dark gray and yellow/orange OKLCH color system, smooth scrolling, custom utilities, and accessibility focus states.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending theme with custom accent-orange color, enhanced shadows, Inter font family, and industrial design tokens.",
+  "frontend/index.html": "HTML entry point with SEO meta tags, page title, keywords, description, and Inter font preload for optimal performance."
+}

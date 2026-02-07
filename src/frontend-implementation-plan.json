@@ -1,0 +1,64 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Hero headline + circular logo framing + local modern welding hero background",
+  "requirements": [
+    {
+      "id": "REQ-13",
+      "summary": "Update the hero main headline text to exactly match the requested wording without “Complete”.",
+      "acceptanceCriteria": [
+        "HeroSection no longer displays the word \"Complete\" in the main headline.",
+        "The main hero headline text renders exactly as: \"Welding & Metal Fabrication Solutions\"."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/sections/HeroSection.tsx",
+          "operation": "modify",
+          "description": "Replace the current hero <h1> text so it renders exactly: \"Welding & Metal Fabrication Solutions\" (remove the word “Complete”)."
+        }
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "summary": "Render the logo inside a circular frame in both the top navigation and the hero branding area.",
+      "acceptanceCriteria": [
+        "The logo in the top navigation renders as a circle (e.g., with a circular mask/frame) on desktop and mobile.",
+        "The logo in the hero section renders as a circle (e.g., with a circular mask/frame).",
+        "No other layout regressions occur in the top navigation or hero section after the logo shape change."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/TopNav.tsx",
+          "operation": "modify",
+          "description": "Update the logo <img> styling to present as a circular frame/mask (e.g., rounded-full + appropriate object-fit and optional ring/border) without affecting header layout on desktop/mobile."
+        },
+        {
+          "path": "frontend/src/components/sections/HeroSection.tsx",
+          "operation": "modify",
+          "description": "Update the hero branding logo <img> styling to present as a circular frame/mask (e.g., rounded-full + appropriate object-fit and optional ring/border) without affecting hero layout."
+        }
+      ]
+    },
+    {
+      "id": "REQ-15",
+      "summary": "Add and use a local, modern welding-themed hero background image with an overlay to maintain readable text and CTAs.",
+      "acceptanceCriteria": [
+        "The Hero/Home section background includes a modern welding-themed image/visual.",
+        "Hero text and CTAs remain clearly readable over the background across common breakpoints (mobile, tablet, desktop).",
+        "The background image is served from local static assets (not a remote URL)."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/public/assets/generated/hero-welding-modern-bg.dim_1920x1080.png",
+          "operation": "create",
+          "description": "Add the required local static hero background image asset: frontend/public/assets/generated/hero-welding-modern-bg.dim_1920x1080.png."
+        },
+        {
+          "path": "frontend/src/components/sections/HeroSection.tsx",
+          "operation": "modify",
+          "description": "Replace the current gradient-only hero background with the local static image frontend/public/assets/generated/hero-welding-modern-bg.dim_1920x1080.png (no remote URLs). Add an overlay/tint (and keep existing decorative grid subtle) to ensure heading, subheading, and buttons have adequate contrast/readability across mobile/tablet/desktop breakpoints."
+        }
+      ]
+    }
+  ]
+}

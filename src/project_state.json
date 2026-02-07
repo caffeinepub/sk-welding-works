@@ -1,0 +1,193 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Build a professional, mobile-responsive business website for a local welding and fabrication workshop named \"SK Welding Works\" with an industrial design, key marketing sections (hero, about, services, why choose us, gallery, contact, footer), and business conversion features (call/WhatsApp, inquiry form) plus SEO optimization.",
+  "architectural_notes": [
+    "Design style: industrial professional look; dark gray base with yellow/orange accents; bold headings and clean fonts.",
+    "Site should include smooth scrolling and hover effects across sections.",
+    "Include WhatsApp floating button for quick contact.",
+    "SEO should target provided welding/fabrication keywords.",
+    "Hero headline text should exclude the word \"Complete\" (use \"Welding & Metal Fabrication Solutions\").",
+    "Logo mark container/frame should be circular (not square).",
+    "Hero/Home background should use a modern welding-themed visual/background."
+  ],
+  "known_issues": [],
+  "isFixRequest": true,
+  "imageRequirements": "## Required Images\n- Modern welding workshop background with sparks and equipment, dark industrial tone (hero-welding-modern-bg.dim_1920x1080.png)",
+  "existing_features": [
+    {
+      "id": "feature-build-a-single-page-mobile-responsive-business-website-for-sk-welding-works-with-these-sections-in-order-hero-about-us-services-why-choose-us-gallery-contact-footer-include-a-top-navigation-with-anchor-links-to-each-section-and-enable-smooth-scrolling-between-sections",
+      "title": "Build a single-page, mobile-responsive business website for \"SK Welding Works\" with these sections in order: Hero, About Us, Services, Why Choose Us, Gallery, Contact, Footer. Include a top navigation with anchor links to each section and enable smooth scrolling between sections.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-hero-section-content-exactly-as-provided-headline-complete-welding-metal-fabrication-solutions-subheading-from-mig-arc-welding-to-custom-metal-work-we-handle-all-welding-jobs-and-a-primary-cta-button-labeled-call-now-for-free-quote-that-uses-a-configurable-phone-number-via-a-tel-link",
+      "title": "Implement the Hero section content exactly as provided: Headline \"Complete Welding & Metal Fabrication Solutions\", subheading \"From MIG & ARC Welding to Custom Metal Work – We Handle All Welding Jobs\", and a primary CTA button labeled \"Call Now for Free Quote\" that uses a configurable phone number via a tel: link.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-the-about-us-section-using-the-provided-paragraph-verbatim-and-present-it-in-a-clean-professional-layout-with-clear-typography",
+      "title": "Create the About Us section using the provided paragraph (verbatim) and present it in a clean, professional layout with clear typography.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-services-section-as-a-responsive-grid-of-cards-with-icons-for-each-service-mig-welding-arc-welding-pipe-bending-gate-grill-work-metal-fabrication-custom-welding-projects-each-card-must-include-a-short-2-3-line-english-description-aligned-with-the-provided-hints-e-g-mig-clean-strong-welds-arc-heavy-duty-structural-pipe-bending-precise-machine-bending",
+      "title": "Implement the Services section as a responsive grid of cards with icons for each service: MIG Welding, ARC Welding, Pipe Bending, Gate & Grill Work, Metal Fabrication, Custom Welding Projects. Each card must include a short 2–3 line English description aligned with the provided hints (e.g., MIG: clean/strong welds; ARC: heavy-duty structural; Pipe Bending: precise machine bending).",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-why-choose-us-section-listing-these-points-with-clear-check-indicator-styling-skilled-workers-modern-machines-strong-clean-finishing-on-time-delivery-reasonable-pricing-all-welding-work-under-one-roof",
+      "title": "Implement a \"Why Choose Us\" section listing these points with clear check/indicator styling: Skilled Workers, Modern Machines, Strong & Clean Finishing, On-Time Delivery, Reasonable Pricing, All Welding Work Under One Roof.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-gallery-section-displaying-a-grid-of-placeholder-images-representing-welding-work-machines-gates-grills-pipes-and-metal-frames-structures-use-locally-served-static-assets-no-remote-hotlinking",
+      "title": "Create a Gallery section displaying a grid of placeholder images representing welding work, machines, gates/grills, pipes, and metal frames/structures. Use locally served static assets (no remote hotlinking).",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-contact-section-including-a-configurable-phone-number-a-whatsapp-button-linking-to-wa-me-using-a-configurable-whatsapp-number-a-configurable-email-a-configurable-workshop-address-and-a-simple-inquiry-form-with-fields-name-phone-message-provide-client-side-validation-and-show-a-success-failure-message-after-submit",
+      "title": "Implement the Contact section including: a configurable phone number, a WhatsApp button (linking to wa.me using a configurable WhatsApp number), a configurable email, a configurable workshop address, and a simple inquiry form with fields (Name, Phone, Message). Provide client-side validation and show a success/failure message after submit.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-floating-whatsapp-button-that-remains-visible-while-scrolling-and-links-to-the-same-configurable-whatsapp-number",
+      "title": "Add a floating WhatsApp button that remains visible while scrolling and links to the same configurable WhatsApp number.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-professional-industrial-visual-theme-consistent-across-the-site-dark-gray-base-with-yellow-orange-accents-bold-headings-and-clean-fonts-apply-consistent-spacing-section-separators-and-hover-focus-states-suitable-for-a-trustworthy-business-focused-website",
+      "title": "Create a professional industrial visual theme consistent across the site: dark gray base with yellow/orange accents, bold headings, and clean fonts. Apply consistent spacing, section separators, and hover/focus states suitable for a trustworthy, business-focused website.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-seo-basics-set-page-title-and-meta-description-for-sk-welding-works-and-include-the-provided-seo-keywords-in-appropriate-meta-tags-and-on-page-content-where-reasonable-add-structured-semantic-html-proper-headings-section-labels-accessible-links",
+      "title": "Implement SEO basics: set page title and meta description for \"SK Welding Works\" and include the provided SEO keywords in appropriate meta tags and on-page content where reasonable. Add structured, semantic HTML (proper headings, section labels, accessible links).",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-footer-with-business-name-quick-links-to-site-sections-working-hours-use-clearly-marked-placeholder-hours-if-not-provided-and-social-media-icons-that-link-to-configurable-placeholder-urls",
+      "title": "Build the Footer with: business name, quick links to site sections, working hours (use clearly marked placeholder hours if not provided), and social media icons that link to configurable placeholder URLs.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-hero-section-main-heading-text-to-remove-the-word-complete-so-the-headline-reads-exactly-welding-metal-fabrication-solutions",
+      "title": "Update the Hero section main heading text to remove the word \"Complete\" so the headline reads exactly: \"Welding & Metal Fabrication Solutions\".",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-change-the-logo-presentation-to-use-a-circular-frame-not-square-anywhere-the-logo-is-shown-in-the-header-navigation-and-the-hero-branding-area",
+      "title": "Change the logo presentation to use a circular frame (not square) anywhere the logo is shown in the header/navigation and the hero branding area.",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-home-hero-background-to-use-a-modern-welding-themed-background-image-visual-while-keeping-text-readable-ensure-adequate-contrast-for-the-hero-heading-subheading-and-buttons-add-the-background-image-as-a-local-static-asset-and-reference-it-from-the-hero-section-no-remote-image-hotlinking",
+      "title": "Update the Home/Hero background to use a modern welding-themed background image/visual while keeping text readable (ensure adequate contrast for the hero heading, subheading, and buttons). Add the background image as a local static asset and reference it from the hero section (no remote image hotlinking).",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create mobile-responsive multi-section website (Hero, About, Services, Why Choose Us, Gallery, Contact, Footer) for SK Welding Works with industrial dark gray + yellow/orange design and smooth scrolling/hover effects",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Implement Services section as icon cards with 2–3 line descriptions for MIG, ARC, Pipe Bending, Gate & Grill Work, Metal Fabrication, and Custom Welding Projects",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Add conversion/contact features: \"Call Now for Free Quote\" CTA, contact details (phone/email/address), WhatsApp button + floating WhatsApp widget, and simple inquiry form",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Add Gallery section with placeholder images representing welding work, machines, gates/grills, pipes, and metal frames/structures",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "SEO optimization including target keywords (\"welding shop near me\", \"all welding work\", \"metal fabrication service\", \"MIG welding\", \"ARC welding\", \"pipe bending service\")",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-14",
+      "summary": "Implement backend support for inquiry submissions: store submitted inquiries (name, phone, message, timestamp) in canister memory and expose a canister method to create an inquiry. Ensure the frontend form calls this method on submit.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-15",
+      "summary": "Update Hero main heading to remove the word \"Complete\" (Headline should be \"Welding & Metal Fabrication Solutions\")",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-16",
+      "summary": "Change logo frame/container styling from square to circular",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-17",
+      "summary": "Update Home/Hero background to a modern welding-themed background image/visual",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "SK Welding Works",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
